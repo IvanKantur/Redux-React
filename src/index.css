@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+input {
+  margin: 15px;
+  width: 240px;
+}
+
+button {
+  background-color: rgb(96, 114, 241);
+  color: white;
+  text-align: center;
+  text-decoration-style: dashed;
+  border: #282c34 solid 1px;
+  margin-right: 10px;
+  border-radius: 4%;
+}
+
+ul {
+  background-color: #61dafb;
+  margin: 25px;
+  min-width: 150px;
+  padding: 15px;
+}
+
+.lists {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+}
+
+li {
+  margin: 5px;
+  /*margin-left: 0;*/
+  background-color: #41fcf5;
+  margin-left: 0;
+  list-style: none;
+}
